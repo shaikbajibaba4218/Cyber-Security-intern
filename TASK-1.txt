@@ -1,0 +1,63 @@
+# Nmap 7.97 scan initiated Mon Aug  4 17:06:36 2025 as: nmap -sS -oN local_net_scan.txt 192.168.29.0/24
+Nmap scan report for 192.168.29.1
+Host is up (0.011s latency).
+Not shown: 990 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+53/tcp   open   domain
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: 70:97:41:D8:6B:6E (Arcadyan)
+
+Nmap scan report for 192.168.29.18
+Host is up (0.023s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: D2:55:9E:C3:15:D0 (Unknown)
+
+Nmap scan report for 192.168.29.86
+Host is up (0.0052s latency).
+All 1000 scanned ports on 192.168.29.86 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: FA:84:8F:3A:2F:74 (Unknown)
+
+Nmap scan report for 192.168.29.129
+Host is up (0.0076s latency).
+Not shown: 988 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+135/tcp   open   msrpc
+8090/tcp  open   opsmessaging
+49159/tcp closed unknown
+49999/tcp closed unknown
+50000/tcp closed ibm-db2
+50001/tcp closed unknown
+50002/tcp closed iiimsf
+50006/tcp closed unknown
+50300/tcp closed unknown
+50800/tcp closed unknown
+51493/tcp closed unknown
+61532/tcp closed unknown
+MAC Address: 18:C0:4D:59:3B:D3 (Giga-byte Technology)
+
+Nmap scan report for 192.168.29.183
+Host is up (0.048s latency).
+All 1000 scanned ports on 192.168.29.183 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 5E:6E:52:3D:A1:E2 (Unknown)
+
+Nmap scan report for 192.168.29.8
+Host is up (0.00013s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Mon Aug  4 17:07:40 2025 -- 256 IP addresses (6 hosts up) scanned in 64.21 seconds
