@@ -10,10 +10,10 @@ steps
 
                      CIDR Notation (Quick Reference):
 
-            Subnet Mask	         CIDR      	IPs in Range
-            255.255.255.0        /24	       256
-            255.255.0.0	         /16	       65,536
-            255.255.255.128	     /25	       128
+            Subnet Mask	           CIDR      	    IPs in Range
+            255.255.255.0          /24	              256
+            255.255.0.0	           /16	              65,536
+            255.255.255.128	     /25	              128
 
 6. Run this command 192.168.1.0/24 in command prompt
 7. Then you will get the data of portswhich are open,close and blocked
